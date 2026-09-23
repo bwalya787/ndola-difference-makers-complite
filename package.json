@@ -1,0 +1,8 @@
+{
+  "name": "ndola-difference-makers",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Static site - verifying files...' && test -f index.html && test -f about.html && test -f services.html && test -f contact.html && test -f src/styles.css && test -f src/main.js && echo 'All files present. Build successful.'"
+  }
+}
